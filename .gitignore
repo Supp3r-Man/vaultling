@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Vaultling runtime data: wrapped keys, ciphertext, policy and audit log. Never commit these.
+data/
+vaultling-data/
+store.json
+audit.log
+audit.good
+*.bak
+.env
